@@ -1,5 +1,10 @@
 
+type buttonType = "submit" | "reset" | "button"
 interface ButtonProps{
-    value?:string,
-    type?:string
+    name?:string,
+    type?:buttonType
+    className?:string,
+    
 }
+
+export default ButtonProps

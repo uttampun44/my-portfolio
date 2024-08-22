@@ -8,8 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
-    },
+       backgroundColor: {
+        "bg-primary" : "#262845"
+       },
+       fontFamily:{
+         "heading-font" : ["New Rocker", "system-ui"],
+         "poppins" : ["Poppins", "sans-serif"]
+       }
+    }, 
   },
   plugins: [],
 };
