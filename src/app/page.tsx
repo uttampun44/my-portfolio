@@ -83,7 +83,7 @@ export default function Home() {
                 After working with WordPress for over 1.5 years, I dedicated
                 additional time to enhance my skills. I then transitioned to a
                 new position where I expanded my expertise to include React,
-                JavaScript, PHP, and Laravel.
+                JavaScript, Typescript, PHP, and Laravel.
               </p>
               <p className="text-[#D0D0D0] text-center text-xl">
                 I continued to improve my design skills with Figma and further
