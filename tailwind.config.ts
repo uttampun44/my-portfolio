@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
        backgroundColor: {
-        "bg-primary" : "#262845"
+        "bg-primary" : "#262845",
+        "bg-secondary" : "#171834"
        },
        fontFamily:{
          "heading-font" : ["New Rocker", "system-ui"],
