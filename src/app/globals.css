@@ -9,3 +9,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.react-multi-carousel-track {
+    gap: .3em;
+}

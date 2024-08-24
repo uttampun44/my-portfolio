@@ -1,23 +1,37 @@
    'use client'
 
+import Link from "next/link"
 import { ReactNode } from "react"
+ 
 
 interface cardProps{
     title?:string,
     description:string,
-  children:ReactNode
+    className:{
+      heading?:string,
+      paragraph?:string
+    },
+  children:ReactNode,
+  link?:string,
+  linkName?:string
 }
 
-const Card:React.FC<cardProps> = ({children, title, description}) =>{
+const Card:React.FC<cardProps> = ({children, title, description, className={}, link, linkName}) =>{
+
+  const heading = className.heading || '';
+  const paragraph = className.paragraph || '';
+
+ 
+
     return(
         <>
-        <div className="cardContainer max-w-[352px]">
+        <div className="cardContainer grid gap-y-2 py-4 justify-center ">
              {children}
               <div className="title">
-               <h5>{title}</h5>
+               <h5 className={heading}>{title}</h5>
               </div> 
               <div className="description">
-                 <p>{description}</p>
+                 <p className={paragraph}>{description}</p>
               </div>
 
         </div>
