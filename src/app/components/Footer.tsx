@@ -21,7 +21,7 @@ function Footer() {
               />
             </div>
             <div className="paragraphFooter">
-              <p className="text-[#fff] text-center text-2xl font-normal">What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+              <p className="text-[#fff] text-center text-2xl font-normal">What&apos;s next? Feel free to reach out to me if you&apos;re looking for a developer, have a query, or simply want to connect.</p>
             </div>
             <div className="email">
                <MailOutlineIcon style={{color: "#fff"}} /> <span className="text-lg font-normal text-[#fff] ml-4">uttampun62@gmail.com</span>
