@@ -22,9 +22,9 @@ function Header() {
                   <li>
                     <Links href={"/"} name="Home" className="font-poppins text-xl text-white"  />
                   </li>
-                  <li>
+                  {/* <li>
                     <Links href={"/portfolio"} name="Portfolio" className="font-poppins text-xl text-white" />
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>
